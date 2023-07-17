@@ -1,0 +1,83 @@
+@font-face {
+    font-family: myCustomFont1;
+    src: url(./assets/Fonts/highfighter.otf)
+}
+
+.font_header{
+font-family: myCustomFont1;
+
+}
+
+.div_class {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 221, 0);
+    border: 1px solid black;
+  }
+  
+
+  #rotate_div1 {
+    transform: rotate(30deg);
+  }
+  
+  #rotate_div2 {
+    transform: rotate(60deg);
+   
+  }
+
+  #rotate_div3 {
+    transform: rotate(30deg);
+ 
+  }
+
+  #rotate_div4 {
+    transform: rotate(30deg);
+ 
+  }
+
+  #rotate_div5 {
+    transform: rotate(60deg);
+ 
+  }
+
+  #deffect1 {
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(245, 219, 52);
+    transform: 
+         scale(0.75)
+         rotateY(30deg)
+         translateZ(4.5rem);
+         transform-origin: 50% 100%;
+         transform-style: preserve-3d;
+         box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.35);
+         transition: 0.6 ease transform;
+  }
+
+
+  #deffect2 {
+    height:100px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(245, 219, 52);
+    transform: 
+         scale(0.75)
+         rotateY(180deg)
+         translateZ(4.5rem);
+         transform-origin: 50% 100%;
+         transform-style: preserve-3d;
+         box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.35);
+         transition: 0.6 ease transform;
+  }
+  
+ div{
+  
+  column-count: 4;
+
+}
+
+
+
+
+  
